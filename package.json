@@ -1,0 +1,14 @@
+{
+  "name": "automation-last-dance",
+  "version": "1.0.0",
+  "description": "app automation",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "webdriverio": "^8.40.0"
+  }
+}
