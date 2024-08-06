@@ -1,12 +1,11 @@
-const {remote} = require('webdriverio');
+import { remote } from 'webdriverio';
+import { DATAcapabilities } from './config.js';
 
 const capabilities = {
-  platformName: 'Android',
-  'appium:automationName': 'UiAutomator2',
-  'appium:deviceName': 'Android',
-  'appium:appPackage': 'com.android.settings',
-  'appium:appActivity': '.Settings',
+  ...DATAcapabilities
 };
+
+console.log(capabilities);
 
 const wdOpts = {
   hostname: process.env.APPIUM_HOST || 'localhost',
