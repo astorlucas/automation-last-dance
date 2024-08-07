@@ -11,5 +11,9 @@
   "license": "ISC",
   "devDependencies": {
     "webdriverio": "^8.40.0"
+  },
+  "dependencies": {
+    "automation-last-dance": "file:",
+    "exceljs": "^4.4.0"
   }
 }
